@@ -142,7 +142,7 @@ input[type="text"] {
 
 /* MAIN_QISMI */
 
-/* MAIN_ABOUT_QISMI */
+   /* MAIN_ABOUT_QISMI */
 
 .about {
     display: flex;
@@ -171,8 +171,7 @@ input[type="text"] {
 
 }
 
-/* ABOUT_CATALOG_QISMI */
-
+   /* ABOUT_CATALOG_QISMI */
 
 .catalog {
     display: flex;
@@ -221,7 +220,7 @@ input[type="text"] {
 }
 
 
-/* CONTACT_QISMI */
+   /* CONTACT_QISMI */
 
 .contacts {
     margin-top: 80px;
