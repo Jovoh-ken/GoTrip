@@ -61,6 +61,7 @@
 
 .nav_form {
     display: flex;
+ 
 }
 
 .nav_input {
@@ -79,6 +80,7 @@
 
 input[type="text"] {
     padding-left: 20px;
+    padding-right: 10px;
 }
 
 .nav_btn {
@@ -142,7 +144,7 @@ input[type="text"] {
 
 /* MAIN_QISMI */
 
-   /* MAIN_ABOUT_QISMI */
+/* MAIN_ABOUT_QISMI */
 
 .about {
     display: flex;
@@ -171,7 +173,7 @@ input[type="text"] {
 
 }
 
-   /* ABOUT_CATALOG_QISMI */
+/* ABOUT_CATALOG_QISMI */
 
 .catalog {
     display: flex;
@@ -202,25 +204,26 @@ input[type="text"] {
     font-size: 24px;
     color: rgba(0, 0, 0, 1);
     transition: 0.5s;
- 
-    
-} 
+
+
+}
 
 .box_sh:hover h2 {
     transform: scale(1.1);
     color: rgba(180, 67, 108, 1);
 }
 
-.catalog_img{
+.catalog_img {
     transition: 0.5s;
     transform: scale(1);
 }
-.catalog_img:hover{
+
+.catalog_img:hover {
     transform: scale(1.1);
 }
 
 
-   /* CONTACT_QISMI */
+/* CONTACT_QISMI */
 
 .contacts {
     margin-top: 80px;
