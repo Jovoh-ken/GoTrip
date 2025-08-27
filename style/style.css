@@ -61,7 +61,7 @@
 
 .nav_form {
     display: flex;
- 
+
 }
 
 .nav_input {
@@ -183,6 +183,7 @@ input[type="text"] {
     margin-top: 80px;
     gap: 50px;
 }
+
 
 .box_sh {
     display: flex;

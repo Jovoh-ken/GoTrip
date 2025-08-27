@@ -63,10 +63,44 @@
     }
 
 
+    /* ABOUT_CATALOG_QISMI */
+
+    .catalog {
+        margin-top: 60px;
+        gap: 35px;
+    }
+
+
+    .box_sh {
+        gap: 25px;
+    }
+
+    .catalog_invertar {
+        gap: 15px;
+        transition: 0.5s;
+    }
+
+    .title_invertar {
+        font-size: 23px;
+    }
+
+    .catalog_img {
+        width: 240px;
+        transition: 0.5s;
+    }
+
+    .catalog {
+        transition: 0.5s;
+    }
+
 }
 
 
-
+@media(max-width:1055px) {
+    .catalog_img {
+        width: 210px;
+    }
+}
 
 /* 950-ekran */
 
@@ -131,6 +165,33 @@
         text-align: justify;
     }
 
+    /* ABOUT_CATALOG_QISMI */
+
+    .catalog {
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+
+    .box_sh {
+        gap: 20px;
+    }
+
+    .title_invertar {
+        font-size: 20px;
+    }
+
+    .catalog_invertar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .catalog_img {
+        width: 280px;
+        transition: 0.5s;
+    }
 
 }
 
@@ -161,6 +222,7 @@
         align-items: center;
         background: rgba(62, 137, 137, 1);
         width: 100%;
+        z-index: 99;
     }
 
     .nav_link {
@@ -232,6 +294,19 @@
         text-align: justify;
     }
 
+    .catalog {
+        margin-top: 40px;
+        gap: 25px;
+    }
+
+
+    .box_sh {
+        gap: 15px;
+    }
+
+    .title_invertar {
+        font-size: 19px;
+    }
 
 
 }
@@ -302,6 +377,25 @@
         text-align: center;
     }
 
+    .catalog {
+        margin-top: 30px;
+        gap: 25px;
+    }
+
+    .title_invertar {
+        font-size: 19px;
+    }
+
+    .catalog_invertar {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .catalog_img {
+        width: 280px;
+    }
+
 }
 
 /* 450-EKRAN */
@@ -355,10 +449,10 @@
 
     .nav_list {
         gap: 30px;
-        height: 45px;
+        height: 40px;
     }
 
-    
+
     /* ABOUT_QISMI */
 
     .about {
@@ -373,6 +467,25 @@
 
     .texts {
         font-size: 13px;
+    }
+
+
+
+    .catalog {
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+    .title_invertar {
+        font-size: 19px;
+    }
+
+    .catalog_invertar {
+        gap: 25px;
+    }
+
+    .catalog_img {
+        width: 210px;
     }
 
 
