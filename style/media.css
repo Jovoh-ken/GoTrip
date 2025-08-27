@@ -37,6 +37,31 @@
 
     }
 
+    /* ABOUT_QISMI */
+
+    .about {
+        margin-top: 60px;
+        gap: 35px;
+    }
+
+    .about_box {
+        gap: 18px;
+    }
+
+    .about_box img {
+        height: 240px;
+    }
+
+
+    .title_all {
+        font-size: 35px;
+    }
+
+    .texts {
+        font-size: 17px;
+        text-align: justify;
+    }
+
 
 }
 
@@ -80,6 +105,32 @@
         font-size: 16px;
         padding: 12px 75px;
     }
+
+    /* ABOUT_QISMI */
+
+    .about {
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+    .about_box {
+        gap: 17px;
+    }
+
+    .about_box img {
+        height: 210px;
+    }
+
+
+    .title_all {
+        font-size: 31px;
+    }
+
+    .texts {
+        font-size: 16px;
+        text-align: justify;
+    }
+
 
 }
 
@@ -153,6 +204,36 @@
         padding: 0px 7px 0px 7px;
         font-size: 13px;
     }
+
+    /* ABOUT_QISMI */
+
+    .about {
+        margin-top: 40px;
+        gap: 25px;
+    }
+
+    .about_box {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .about_box img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .title_all {
+        font-size: 28px;
+    }
+
+    .texts {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+
+
 }
 
 /* 650-EKRAN */
@@ -203,6 +284,24 @@
         padding: 0px 7px 0px 7px;
         font-size: 12px;
     }
+
+    /* ABOUT_QISMI */
+
+    .about {
+        margin-top: 30px;
+        gap: 25px;
+    }
+
+
+    .title_all {
+        font-size: 25px;
+    }
+
+    .texts {
+        font-size: 14px;
+        text-align: center;
+    }
+
 }
 
 /* 450-EKRAN */
@@ -258,5 +357,23 @@
         gap: 30px;
         height: 45px;
     }
+
+    
+    /* ABOUT_QISMI */
+
+    .about {
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+
+    .title_all {
+        font-size: 20px;
+    }
+
+    .texts {
+        font-size: 13px;
+    }
+
 
 }
