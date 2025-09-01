@@ -166,7 +166,7 @@ input[type="text"] {
     color: rgba(62, 137, 137, 1);
 }
 
-.texts {
+.texts, .texts_contact {
     font-weight: 400;
     font-size: 18px;
     color: rgba(0, 0, 0, 1);
@@ -239,6 +239,12 @@ input[type="text"] {
 }
 
 .box_left_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box_right_contacts {
     display: flex;
     flex-direction: column;
     gap: 20px;
