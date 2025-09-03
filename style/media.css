@@ -5,6 +5,7 @@
 
     }
 
+
     .nav_box {
         padding: 35px 0px;
         transition: 0.5s;
@@ -93,221 +94,234 @@
         transition: 0.5s;
     }
 
-}
-
-
-@media(max-width:1055px) {
-    .catalog_img {
-        width: 210px;
-    }
-}
-
-/* 950-ekran */
-
-@media(max-width:950px) {
-    .intro {
-        height: 550px;
-        gap: 30px;
+    @media(max-width:1055px) {
+        .catalog_img {
+            width: 210px;
+        }
     }
 
-    .nav_box {
-        padding: 30px 0px;
-    }
+    /* 950-ekran */
 
-    .nav_list {
-        gap: 25px;
-        transition: 0.5s;
-    }
+    @media(max-width:950px) {
+        .intro {
+            height: 550px;
+            gap: 30px;
+        }
 
-    .nav_link {
-        font-size: 15px;
-    }
+        .nav_box {
+            padding: 30px 0px;
+        }
 
-    /* INTRO-QISMI */
+        .nav_list {
+            gap: 25px;
+            transition: 0.5s;
+        }
 
-    .title_intro {
-        font-size: 70px;
+        .nav_link {
+            font-size: 15px;
+        }
 
-    }
+        /* INTRO-QISMI */
 
-    .text_intro {
-        font-size: 30px;
-    }
+        .title_intro {
+            font-size: 70px;
 
+        }
 
-    .intro_link {
-        font-size: 16px;
-        padding: 12px 75px;
-    }
-
-    /* ABOUT_QISMI */
-
-    .about {
-        margin-top: 50px;
-        gap: 30px;
-    }
-
-    .about_box {
-        gap: 17px;
-    }
-
-    .about_box img {
-        height: 210px;
-    }
+        .text_intro {
+            font-size: 30px;
+        }
 
 
-    .title_all {
-        font-size: 31px;
-    }
+        .intro_link {
+            font-size: 16px;
+            padding: 12px 75px;
+        }
 
-    .texts {
-        font-size: 16px;
-        text-align: justify;
-    }
+        /* ABOUT_QISMI */
 
-    /* ABOUT_CATALOG_QISMI */
+        .about {
+            margin-top: 50px;
+            gap: 30px;
+        }
 
-    .catalog {
-        margin-top: 50px;
-        gap: 30px;
-    }
+        .about_box {
+            gap: 17px;
+        }
 
-
-    .box_sh {
-        gap: 20px;
-    }
-
-    .title_invertar {
-        font-size: 20px;
-    }
-
-    .catalog_invertar {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 50px;
-    }
-
-    .catalog_img {
-        width: 280px;
-        transition: 0.5s;
-    }
-
-}
+        .about_box img {
+            height: 210px;
+        }
 
 
+        .title_all {
+            font-size: 31px;
+        }
 
-/* 850-ekran */
+        .texts {
+            font-size: 16px;
+            text-align: justify;
+        }
 
-@media(max-width:850px) {
-    .intro {
-        height: 490px;
-        gap: 20px;
-    }
+        /* ABOUT_CATALOG_QISMI */
 
-    .nav_box {
-        padding: 25px 0px;
+        .catalog {
+            margin-top: 50px;
+            gap: 30px;
+        }
 
-    }
 
-    .nav_list {
-        gap: 90px;
-        height: 50px;
-        position: absolute;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(62, 137, 137, 1);
-        width: 100%;
-        z-index: 99;
-    }
+        .box_sh {
+            gap: 20px;
+        }
 
-    .nav_link {
-        font-size: 14px;
-    }
+        .title_invertar {
+            font-size: 20px;
+        }
 
-    /* INTRO-QISMI */
+        .catalog_invertar {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 50px;
+        }
 
-    .title_intro {
-        font-size: 50px;
-
-    }
-
-    .text_intro {
-        font-size: 25px;
+        .catalog_img {
+            width: 280px;
+            transition: 0.5s;
+        }
 
     }
 
 
-    .intro_link {
-        font-size: 14px;
-        padding: 11px 70px;
+
+    /* 850-ekran */
+
+    @media(max-width:850px) {
+        .intro {
+            height: 490px;
+            gap: 20px;
+        }
+
+        .nav_box {
+            padding: 25px 0px;
+
+        }
+
+        .nav_list {
+            gap: 90px;
+            height: 50px;
+            position: absolute;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(62, 137, 137, 1);
+            opacity: 0.9;
+            width: 100%;
+            z-index: 99;
+        }
+
+        .nav_link {
+            font-size: 14px;
+        }
+
+        /* INTRO-QISMI */
+
+        .title_intro {
+            font-size: 50px;
+
+        }
+
+        .text_intro {
+            font-size: 25px;
+
+        }
+
+
+        .intro_link {
+            font-size: 14px;
+            padding: 11px 70px;
+        }
+
+        /* FORM_QISMI */
+        .nav_input {
+            transition: 0.5s;
+
+            height: 27px;
+        }
+
+        .nav_input::placeholder {
+            font-size: 15px;
+        }
+
+        input[type="text"] {
+            max-width: 180px;
+        }
+
+        .nav_btn {
+            padding: 0px 7px 0px 7px;
+            font-size: 13px;
+        }
+
+        /* ABOUT_QISMI */
+
+        .about {
+            margin-top: 40px;
+            gap: 25px;
+        }
+
+        .about_box {
+            gap: 15px;
+            flex-direction: column;
+        }
+
+        .about_box img {
+            width: 100%;
+            height: auto;
+        }
+
+
+        .title_all {
+            font-size: 28px;
+        }
+
+        .texts {
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .catalog {
+            margin-top: 40px;
+            gap: 25px;
+        }
+
+
+        .box_sh {
+            gap: 15px;
+        }
+
+        .title_invertar {
+            font-size: 19px;
+        }
+
+        /* FOOTER_QISMI */
+        .footer {
+            margin-bottom: 45px;
+        }
+
+        .footer_list {
+            display: none;
+
+        }
+
+        .footer_box {
+            height: 50px;
+        }
+
     }
-
-    /* FORM_QISMI */
-    .nav_input {
-        transition: 0.5s;
-
-        height: 27px;
-    }
-
-    .nav_input::placeholder {
-        font-size: 15px;
-    }
-
-    input[type="text"] {
-        max-width: 180px;
-    }
-
-    .nav_btn {
-        padding: 0px 7px 0px 7px;
-        font-size: 13px;
-    }
-
-    /* ABOUT_QISMI */
-
-    .about {
-        margin-top: 40px;
-        gap: 25px;
-    }
-
-    .about_box {
-        gap: 15px;
-        flex-direction: column;
-    }
-
-    .about_box img {
-        width: 100%;
-        height: auto;
-    }
-
-
-    .title_all {
-        font-size: 28px;
-    }
-
-    .texts {
-        font-size: 15px;
-        text-align: justify;
-    }
-
-    .catalog {
-        margin-top: 40px;
-        gap: 25px;
-    }
-
-
-    .box_sh {
-        gap: 15px;
-    }
-
-    .title_invertar {
-        font-size: 19px;
-    }
-
 
 }
 
@@ -432,6 +446,7 @@
         font-weight: 500;
         font-size: 14px;
     }
+
 }
 
 /* 450-EKRAN */
@@ -516,14 +531,39 @@
     }
 
     .catalog_invertar {
-        gap: 5px;
+        gap: 20px;
+    }
+
+    .catalog_img {
+        width: 180px;
+    }
+
+    .contacts_all {
+        font-size: 11px;
+    }
+
+    /* FOOTER_QISMI */
+    .footer {
+        margin-bottom: 40px;
+    }
+
+    .footer_box {
+        height: 40px;
+        text-align: center;
+    }
+.footer_text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+}
+
+@media (max-width:400px) {
+    .catalog_invertar {
+        gap: 6px;
     }
 
     .catalog_img {
         width: 150px;
     }
-.contacts_all{
- font-size: 11px;
-}
-
 }
